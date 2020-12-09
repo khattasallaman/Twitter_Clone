@@ -1,0 +1,25 @@
+// user Action types
+export const SET_AUTHENTICATED = "SET_AUTHENTICATED"
+export const SET_UNAUTHENTICATED = "SET_UNAUTHENTICATED"
+export const USER_IS_LOADING = "USER_IS_LOADING"
+export const SET_USER = "SET_USER"
+// data Action types
+export const SET_SCREENS = "SET_SCREENS"
+export const SET_SCREEN = "SET_SCREEN"
+export const POST_SCREEN = "POST_SCREEN"
+export const GET_SCREEN = "GET_SCREEN"
+export const SCREEN_IS_LOADING = "SCREEN_IS_LOADING"
+export const LIKE_SCREEN = "LIKE_SCREEN"
+export const UNLIKE_SCREEN = "UNLIKE_SCREEN"
+export const DELETE_SCREEN = "DELETE_SCREEN"
+export const SUBMIT_COMMENT = "SUBMIT_COMMENT"
+export const MARK_NOTIFICATIONS_READ = "MARK_NOTIFICATIONS_READ"
+
+
+// UI Action types
+export const UI_IS_LOADING = "UI_IS_LOADING"
+export const STOP_UI_LOADING = "STOP_UI_LOADING"
+export const COMMENT_IS_LOADING = "UI_IS_LOADING"
+export const STOP_COMMENT_LOADING = "STOP_UI_LOADING"
+export const SET_ERRORS = "SET_ERRORS"
+export const CLEAR_ERRORS = "CLEAR_ERRORS"
